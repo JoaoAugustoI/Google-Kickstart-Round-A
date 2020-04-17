@@ -19,7 +19,7 @@ int main()
        
        sort(A,A+N);
        int i = 0;
-       while(B>A[i])
+       while(B>=A[i])
        {
            B-=A[i];
            i++;
